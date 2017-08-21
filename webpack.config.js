@@ -9,7 +9,7 @@ Encore
   .addEntry('main', './src/index.js')
   .addStyleEntry('styles', './src/index.scss')
   .enableSassLoader()
-  .enablePreactPreset()
+  .enablePreactPreset({ preactCompat: true })
   .addPlugin(new CopyWebpackPlugin([
     { from: './src/index.html', to: 'index.html' }
   ]))
