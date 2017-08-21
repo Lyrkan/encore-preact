@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "encore dev-server --hot",
+    "build:dev": "encore dev",
+    "build:prod": "encore production"
+  },
+  "devDependencies": {
+    "@symfony/webpack-encore": "git://github.com/Lyrkan/webpack-encore.git#add-preact-preset",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6"
+  },
+  "dependencies": {
+    "preact": "^8.2.1"
+  }
+}
