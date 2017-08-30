@@ -7,6 +7,8 @@
   "devDependencies": {
     "@symfony/webpack-encore": "git://github.com/Lyrkan/webpack-encore.git#add-preact-preset",
     "babel-plugin-transform-react-jsx": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
     "copy-webpack-plugin": "^4.0.1",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6"
