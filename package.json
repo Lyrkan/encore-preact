@@ -5,7 +5,7 @@
     "build:prod": "encore production"
   },
   "devDependencies": {
-    "@symfony/webpack-encore": "git://github.com/Lyrkan/webpack-encore.git#add-preact-preset",
+    "@symfony/webpack-encore": "^0.15.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "copy-webpack-plugin": "^4.0.1",
     "node-sass": "^4.5.3",
